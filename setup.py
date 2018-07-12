@@ -10,23 +10,14 @@ from setuptools import find_packages, setup
 
 _version_re = re.compile(r'__version__\s+=\s+(.*)')
 
-with open('cli_helpers/__init__.py', 'rb') as f:
-    version = str(ast.literal_eval(_version_re.search(
-        f.read().decode('utf-8')).group(1)))
-
-
 def open_file(filename):
     """Open and read the file *filename*."""
     with open(filename) as f:
         return f.read()
 
 
-readme = open_file('README.rst')
+readme = open_file('README.md')
 
-if sys.version_info[0] == 2:
-    py2_reqs = [ 'backports.csv >= 1.0.0', ]
-else:
-    py2_reqs = []
 
 setup(
     name='lupe',
@@ -40,6 +31,7 @@ setup(
     long_description=readme,
     classifiers=[
         'Intended Audience :: Developers',
+        'Development Status :: 3-ALPHA'
         'License :: OSI Approved :: MIT License',
         'Operating System :: Unix',
         'Programming Language :: Python',
