@@ -10,10 +10,8 @@
 	<a href="https://cash.me/$19cah"><img src="https://19cah.com/badge.svg"></a>
 	<a href="https://cash.me/$19cah"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
 	<a href="https://www.patreon.com/19cah"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://github.com/19cah/lupe/blob/master/LICENSE"><img src="https://img.shields.io/github/lupe/19cah/github-npm.svg" /></a>
+	<a href="https://github.com/19cah/lupe/blob/master/LICENSE"><img src="https://img.shields.io/travis/19cah/lupe.svg?logo=travis" /></a>
 </p>
-
-
 
 # Install
 
@@ -72,7 +70,7 @@ foo(cli.input[0], cli.flags);
 
 # Credit
 
-Based on [meow](https://github.com/sindresorhus/meow) from [@Sindresorhus](https://github.com/sindresorhus/meow)
+Based on [meow](https://github.com/sindresorhus/meow) from [@Sindresorhus](https://github.com/sindresorhus)
 
 # Team
 
