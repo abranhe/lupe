@@ -8,4 +8,12 @@ python:
   - "3.5"
   - "3.6"
 
-script: pytest
+env:
+  - TOXENV=pypy
+
+install:
+  - travis_retry pip install lupe
+
+script:
+  - from lupe import lupe
+  - lupe.cli()
