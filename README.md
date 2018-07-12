@@ -42,7 +42,7 @@ $ ./foo.py dinner --mango
 from lupe import *
 from foo import *
 
-cli = lupe(`
+cli = lupe("""
 	Usage
 	  $ foo <input>
 
@@ -52,7 +52,7 @@ cli = lupe(`
 	Examples
 	  $ foo dinner --mango
 	  	dinner 🍐
-`, {
+""", {
 	flags: {
 		mango: {
 			type: 'boolean',
