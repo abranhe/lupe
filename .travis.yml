@@ -8,8 +8,5 @@ python:
   - "3.5"
   - "3.6"
 
-env:
-  - TOXENV=pypy
-
-install:
-  - travis_retry pip install lupe
+script:
+  - echo "Test working"
