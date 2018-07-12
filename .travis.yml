@@ -13,7 +13,3 @@ env:
 
 install:
   - travis_retry pip install lupe
-
-script:
-  - from lupe import lupe
-  - lupe.cli()
