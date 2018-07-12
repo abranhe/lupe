@@ -10,8 +10,11 @@
 	<a href="https://cash.me/$19cah"><img src="https://19cah.com/badge.svg"></a>
 	<a href="https://cash.me/$19cah"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
 	<a href="https://www.patreon.com/19cah"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://github.com/19cah/lupe/blob/master/LICENSE"><img src="https://img.shields.io/travis/19cah/lupe.svg?logo=travis" /></a>
+	<a href="https://github.com/19cah/lupe/blob/master/LICENSE"><img src="https://img.shields.io/github/license/19cah/lupe.svg" /></a>
+  <a href="https://travis-ci.org/19cah/lupe"><img src="https://img.shields.io/travis/19cah/lupe.svg?logo=travis" /></a>
 </p>
+
+
 
 # Install
 
