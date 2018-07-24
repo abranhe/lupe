@@ -35,42 +35,6 @@ $ pip install lupe
 $ ./foo.py dinner --mango
 ```
 
-```py
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
-
-from lupe import *
-from foo import *
-
-cli = lupe("""
-	Usage
-	  $ foo <input>
-
-	Options
-	  --mango, -m  Include a mango
-
-	Examples
-	  $ foo dinner --mango
-	  	dinner 🍐
-""", {
-	flags: {
-		mango: {
-			type: 'boolean',
-			alias: 'm'
-		}
-	}
-});
-/*
-{
-	input: ['dinner'],
-	flags: {mango: true},
-	...
-}
-*/
-
-foo(cli.input[0], cli.flags);
-```
-
 # Credit
 
 Based on [meow](https://github.com/sindresorhus/meow) from [@Sindresorhus](https://github.com/sindresorhus)
