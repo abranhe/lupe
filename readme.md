@@ -14,7 +14,7 @@
 
 <p align="center">
 	<a href="https://github.com/abranhe/lupe/actions/workflows/test.yml">
-		<img src="https://github.com/abranhe/lupe/actions/workflows/cronjob.yml/badge.svg" />
+		<img src="https://github.com/abranhe/lupe/actions/workflows/test.yml/badge.svg" />
 	</a>
 	<a href="https://travis-ci.org/abranhe/lupe">
 		<img src="https://img.shields.io/travis/abranhe/lupe.svg?logo=travis" />
@@ -36,10 +36,10 @@ $ pip install lupe
 ## Features
 
 - Parses arguments
+- Converts flags snake_case for easier use
 - Negates flags when using the `--no-` prefix
 - Outputs version when `-v`, `--version`
-- Outputs description and supplied help text when `-h`,`--help`
-- Converts flags snake_case for easier use
+- Outputs description and supplied help text when `-h`, `--help`
 
 ## Usage
 
@@ -49,7 +49,7 @@ On the command line:
 $ python main.py dinner --mango --no-banana
 ```
 
-On the command line app:
+On the app:
 
 ```python
 #!/usr/bin/python
@@ -69,15 +69,15 @@ Examples
 """
 
 cli = lupe(help, {
-		'flags': {
-			'mango': {
-				'type': 'boolen',
-        'alias': 'm'
-      },
-      'banana': {
-        'type': 'boolen',
-      }
-  }
+    'flags': {
+        'mango': {
+            'type': 'boolen',
+            'alias': 'm'
+        },
+        'banana': {
+            'type': 'boolen',
+        }
+    }
 })
 
 print(cli.flags)
