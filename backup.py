@@ -1,4 +1,4 @@
-class Lupe():
+class lupe():
     def __init__(self, help_message, options={}):
         self.version = ''
 

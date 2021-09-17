@@ -3,12 +3,12 @@
 
 """The setup.py file for lupe"""
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 DESCRIPTION = 'The CLI helper you need 🥭'
 LONG_DESCRIPTION = open("readme.md").read()
 
-VERSION = '0.1.2'
+VERSION = '0.1.12'
 URL = 'https://github.com/abranhe/lupe'
 
 setup(
@@ -43,6 +43,6 @@ setup(
         'Operating System :: Unix',
     ],
 
-    include_package_data=True,
+    packages=find_packages(),
     keywords='command line interface cli lupe',
 )
