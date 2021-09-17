@@ -14,7 +14,7 @@ cli = lupe('usage: foo [options]')
 cli.get_help()
 ```
 
-Read the documentation at https://github.com/abranhe/lupe
+Read more on the [documentation](https://github.com/abranhe/lupe)
 """
 
 import sys
