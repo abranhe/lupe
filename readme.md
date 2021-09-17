@@ -16,7 +16,7 @@
 	<a href="https://github.com/abranhe/lupe/actions/workflows/test.yml">
 		<img src="https://github.com/abranhe/lupe/actions/workflows/test.yml/badge.svg" />
 	</a>
-	<a href="https://travis-ci.org/abranhe/lupe">
+	<a href="https://app.travis-ci.com/github/abranhe/lupe">
 		<img src="https://img.shields.io/travis/abranhe/lupe.svg?logo=travis" />
 	</a>
 	<a href="https://pypi.org/project/lupe">
