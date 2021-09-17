@@ -24,9 +24,7 @@ setup(
     license='MIT',
 
     classifiers=[
-        'Intended Audience :: Developers'
-        'Topic :: Software Development :: Libraries :: Python Modules',
-
+        'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
 
         'Programming Language :: Python',
