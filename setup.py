@@ -12,6 +12,7 @@ VERSION = '0.1.1'
 URL = 'https://github.com/abranhe/lupe'
 
 setup(
+    name='lupe',
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
