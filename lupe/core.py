@@ -17,14 +17,14 @@ class lupe():
             elif key == 'help':
                 self.help = value
             elif key == 'flags':
-                self.flags = self.__set_flags(value)
+                self.flags = self._set_flags(value)
             elif key == 'inputs':
-                self.inputs = self.__set_inputs(value)
+                self.inputs = self._set_inputs(value)
 
-    def __set_flags(self, flags):
+    def _set_flags(self, flags):
         return flags
 
-    def __set_inputs(self, inputs):
+    def _set_inputs(self, inputs):
         return inputs
 
     def show_help(self):
