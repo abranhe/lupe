@@ -8,7 +8,7 @@ from setuptools import setup
 DESCRIPTION = 'The CLI helper you need 🥭'
 LONG_DESCRIPTION = open("readme.md").read()
 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 URL = 'https://github.com/abranhe/lupe'
 
 setup(
