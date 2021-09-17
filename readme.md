@@ -61,7 +61,7 @@ Usage foo [input]
 Options
   -h, --help      Show this help message and exit
   -v, --version   Show version and exit
-  -m, --mango    Include a mango
+  -m, --mango     Include a mango
 
 Examples
 
