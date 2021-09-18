@@ -84,7 +84,7 @@ print(cli.flags)
 # {'mango': True, 'banana': False}
 
 print(cli.inputs)
-# [dinner]
+# ['dinner']
 ```
 
 ## API

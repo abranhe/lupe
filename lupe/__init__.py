@@ -11,7 +11,7 @@ import lupe
 cli = lupe('usage: foo [options]')
 
 # display help
-cli.get_help()
+cli.show_help()
 ```
 
 Read more on the [documentation](https://github.com/abranhe/lupe)
