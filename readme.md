@@ -71,11 +71,11 @@ Examples
 cli = lupe(help, {
     'flags': {
         'mango': {
-            'type': 'boolen',
+            'type': 'boolean',
             'alias': 'm'
         },
         'banana': {
-            'type': 'boolen',
+            'type': 'boolean',
         }
     }
 })
