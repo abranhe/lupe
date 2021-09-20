@@ -1,11 +1,9 @@
-class Lupe():
+class Lupe:
     def __init__(self, help_message, options={}):
         self.version = ''
-
         self.flags = {}
         self.inputs = []
         self.aliases = {}
-
         self.help = help_message
 
         self._set_options(options)
